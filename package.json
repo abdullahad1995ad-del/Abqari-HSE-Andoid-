@@ -1,0 +1,19 @@
+{
+  "name": "abqari-hse",
+  "version": "1.0.0",
+  "private": true,
+  "description": "العبقري HSE - تطبيق السلامة",
+  "scripts": {
+    "build": "echo 'Static web app: www/index.html'",
+    "android:init": "npx cap add android",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "@capacitor/android": "^7.4.3"
+  }
+}
